@@ -5,7 +5,7 @@
         int  n, val, pos;
         float a[100];
         printf(" Nhap so phan tu mang A: ");
-        scanf_s("%d", &n);
+        scanf("%d", &n);
         printf(" Nhap cac phan tu mang A:\n");
         NhapMang(a, n);
         printf(" Mang A: ");
@@ -27,7 +27,7 @@
     void NhapMang(float a[], int n) {
         for (int i = 0; i < n; i++) {
             printf(" Phan tu thu %d: ", i);
-            scanf_s("%f", &a[i]);
+            scanf("%f", &a[i]);
         }
     }
     void XuatMang(float a[], int n) {
